@@ -1,0 +1,97 @@
+.main-section {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+.left-part {
+    background-color: #F2F4FA;
+
+}
+
+.text-select {
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.header {
+    height: 60px;
+    padding: 50px;
+    color: #5D5FEF;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    height: 60px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.players-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-left: 100px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+
+}
+
+.author-img img {
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.author-address {
+    margin-top: -20px;
+}
+
+.author-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5D5FEF;
+    border-radius: 5px;
+}
+
+.weight {
+    display: grid;
+
+}
+
+.under-weight {
+    margin-top: -15px;
+}
+
+.timer {
+    position: sticky;
+    top: 0px;
+    margin-left: 10px;
+}
+
+.break-time {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5D5FEF;
+    border-radius: 5px;
+}
+
+.break-time p {
+    width: 30px;
+    height: 30px;
+    background-color: #F2F4FA;
+    border-radius: 20px;
+}
+
+.activity-text {
+    background-color: #5D5FEF;
+    height: 50px;
+
+}
